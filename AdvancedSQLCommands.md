@@ -20,6 +20,7 @@
 
 /* CTEs provide a way to write auxiliary statements for use in a larger query.
    Recursive CTEs are particularly useful for hierarchical or tree-structured data. */
+
 2. Common Table Expressions (CTE)
    ```sql
    -- Traverses an organizational hierarchy to show reporting relationships
@@ -64,6 +65,7 @@
 
 /* Correlated subqueries reference the outer query and execute for each outer row.
    They're powerful for row-by-row comparisons and finding related data. */
+
 2. Correlated Subqueries
    ```sql
    -- Finds highest paid employee in each department
@@ -82,6 +84,7 @@
 
 /* LATERAL joins allow subqueries in the FROM clause to reference columns from preceding tables.
    Perfect for row-specific calculations or limiting related data. */
+
 3. Lateral Joins
    ```sql
    -- Gets the three most recent orders for each customer
@@ -122,6 +125,7 @@
 
 /* Bulk operations allow multiple data modifications in a single statement.
    They're more efficient than individual statements and maintain data consistency. */
+
 2. Bulk Operations
    ```sql
    -- Inserts data into multiple tables in one statement
@@ -135,6 +139,7 @@
 
 /* Conditional updates modify data based on specific criteria.
    They're essential for complex business rules and data transformations. */
+
 3. Conditional Updates
    ```sql
    -- Updates salaries with different percentages based on department
@@ -173,6 +178,7 @@
 
 /* Partitioning divides large tables into smaller, manageable chunks.
    Improves query performance and data management for large datasets. */
+
 2. Partitioning
    ```sql
    -- Creates a table partitioned by date range
@@ -190,6 +196,7 @@
 
 /* Materialized Views store pre-computed query results.
    Perfect for complex queries that don't need real-time data. */
+
 3. Materialized Views
    ```sql
    -- Creates a materialized view for sales summaries
@@ -252,6 +259,7 @@
 
 /* Table-valued functions return result sets rather than single values.
    They're powerful for reusable data transformations and complex calculations. */
+
 2. Table-Valued Functions
    ```sql
    -- Returns a table of top customers based on purchase criteria
@@ -302,6 +310,7 @@
 
 /* Audit triggers automatically track all data changes.
    Critical for compliance and data change tracking. */
+
 2. Advanced Auditing
    ```sql
    -- Creates comprehensive audit trail for employee data changes
@@ -335,6 +344,7 @@
 
 /* Regular statistics management ensures optimal query planning.
    Critical for maintaining database performance. */
+
 1. Statistics Management
    ```sql
    -- Updates table statistics for query optimizer
@@ -349,6 +359,7 @@
 
 /* Vacuum operations reclaim storage and update statistics.
    Essential for maintaining database health. */
+
 2. Vacuum Operations
    ```sql
    -- Analyzes table and updates statistics
@@ -363,6 +374,7 @@
 
 /* Tablespace management optimizes storage distribution.
    Important for I/O optimization and storage management. */
+
 3. Table Space Management
    ```sql
    -- Creates new tablespace on fast storage
@@ -378,6 +390,7 @@
 
 /* Database monitoring helps track performance and usage.
    Essential for proactive database management. */
+
 4. Database Monitoring
    ```sql
    -- Retrieves key database performance metrics
